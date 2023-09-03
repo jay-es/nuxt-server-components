@@ -11,7 +11,10 @@ const html = md.render(string);
 </script>
 
 <template>
-  <div v-html="html" />
+  <div>
+    <slot />
+    <div v-html="html" />
+  </div>
 </template>
 
 <style scoped>

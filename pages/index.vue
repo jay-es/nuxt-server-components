@@ -1,5 +1,5 @@
 <template>
-  <div>
-    <MarkdownComponent />
-  </div>
+  <MarkdownComponent>
+    <CountButton />
+  </MarkdownComponent>
 </template>
