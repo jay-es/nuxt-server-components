@@ -2,6 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   experimental: {
-    componentIslands: true,
+    componentIslands: {
+      selectiveClient: true,
+    },
   },
 });
